@@ -36,13 +36,14 @@ File Transfer Tool helps you automatically locate and copy files based on catalo
 ### Installation Options
 
 #### 1. Pre-built Executables (Recommended)
+You can find pre-built executables in the [Releases section](https://github.com/Baturalp6/QuickCopy/releases/tag/v1.0.0):
 - **Windows**: Download `FileCopier.exe`
-- **macOS**: Download `FileCopier.app`
+- **macOS**: Download `FileCopier.app` (Note: Due to cross-platform compilation limitations, macOS users might need to build from source)
 
 #### 2. Build from Source
 ```bash
 # Clone repository
-git clone https://github.com/Baturalp6/QuickCopy
+git clone https://github.com/Baturalp6/file-transfer-tool.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -123,6 +124,17 @@ This is completely normal for custom-built applications and you can:
 - No internet connection required
 - All operations are local to your computer
 - Source code is open and can be audited
+
+### Build Information
+The Windows executable (.exe) is built on Windows 10 and tested on Windows 10/11.
+For macOS users, it's recommended to build from source due to potential compatibility issues with pre-built apps.
+
+### Latest Release
+Check the [Releases page](https://github.com/Baturalp6/QuickCopy/releases/tag/v1.0.0) for:
+- Pre-compiled executables
+- Version history
+- Change logs
+- Installation instructions
 
 ## Troubleshooting
 
