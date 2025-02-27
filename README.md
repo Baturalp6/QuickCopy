@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey.svg)]()
 [![Python](https://img.shields.io/badge/python-3.9+-green.svg)](https://www.python.org/downloads/)
-[![GitHub release](https://img.shields.io/badge/release-v1.0-blue.svg)](https://github.com/Baturalp6/QuickCopy)
+[![GitHub release](https://img.shields.io/badge/release-v1.0.1-blue.svg)]()
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -36,14 +36,14 @@ File Transfer Tool helps you automatically locate and copy files based on catalo
 ### Installation Options
 
 #### 1. Pre-built Executables (Recommended)
-You can find pre-built executables in the [Releases section](https://github.com/Baturalp6/QuickCopy/releases/tag/v1.0.0):
+Download the latest release from the releases page:
 - **Windows**: Download `FileCopier.exe`
 - **macOS**: Download `FileCopier.app` (Note: Due to cross-platform compilation limitations, macOS users might need to build from source)
 
 #### 2. Build from Source
 ```bash
 # Clone repository
-git clone https://github.com/Baturalp6/file-transfer-tool.git
+git clone https://github.com/Baturalp6/QuickCopy.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -130,7 +130,7 @@ The Windows executable (.exe) is built on Windows 10 and tested on Windows 10/11
 For macOS users, it's recommended to build from source due to potential compatibility issues with pre-built apps.
 
 ### Latest Release
-Check the [Releases page](https://github.com/Baturalp6/QuickCopy/releases/tag/v1.0.0) for:
+Check the releases page for:
 - Pre-compiled executables
 - Version history
 - Change logs
@@ -140,7 +140,7 @@ Check the [Releases page](https://github.com/Baturalp6/QuickCopy/releases/tag/v1
 
 ### Common Issues
 1. **Application won't start**
-   - Verify admin privileges
+   - Verify admin privilegesok
    - Try restarting your system
 
 2. **Excel file not recognized**
